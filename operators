@@ -1,0 +1,23 @@
+#assignment operators
+x = 10
+
+x += 5
+print(x)
+
+x*= 3
+print(x)
+
+x//= 2
+print(x)
+
+#bank balance
+balance = 20000
+deposit = 3000
+balance += deposit
+
+print("AfterDeposit:",balance)
+
+withdraw = 3000
+balance -= withdraw
+
+print("After withdrawal:,"balance)
